@@ -50,21 +50,21 @@ function countryDetails(country) {
 
     cardBody.innerHTML = `
              <div class="row">
-             <img class="flag" src="${country.flags.svg}" alt="Flag" />
-            
-              <div class="column">
-              <h2 class="country-name">${country.name.common}</h2>
-              <p><strong>Official Name: </strong>${country.name.official}</p>
-              <p><strong>Population: </strong>${country.population}</p>
-                <p><strong>Region: </strong>${country.region}</p>
-                <p><strong>Sub Region: </strong>${country.subregion}</p>
-                <p><strong>Capital: </strong>${country.capital}</p>
-                <p><strong>Languages: </strong>${Object.values(country.languages).join(', ')}</p>
-                <p><strong>Currencies: </strong>${Object.values(country.currencies).map(({ name }) => name).join(', ')}</p>
-                   
-            <p><strong>Borders: </strong>${country.borders}</p>
+                <div class="column1">
+                    <img class="flag" src="${country.flags.svg}" alt="Flag" />
+                </div>
+                <div class="column2">
+                    <h2 class="country-name">${country.name.common}</h2>
+                    <p><strong>Official Name: </strong>${country.name.official}</p>
+                    <p><strong>Population: </strong>${country.population}</p>
+                    <p><strong>Region: </strong>${country.region}</p>
+                    <p><strong>Sub Region: </strong>${country.subregion}</p>
+                    <p><strong>Capital: </strong>${country.capital}</p>
+                    <p><strong>Languages: </strong>${Object.values(country.languages).join(', ')}</p>
+                    <p><strong>Currencies: </strong>${Object.values(country.currencies).map(({ name }) => name).join(', ')}</p>
+                    <p><strong>Borders: </strong>${country.borders}</p>
+                </div>
             </div>
-            </div >
 
            
 
