@@ -156,7 +156,7 @@ select:focus {
     max-height: 50%;
     height: 35%;
     margin: auto;
-    min-width: 335px;
+    min-width: 20.938rem;
 }
 
 .arrow {
@@ -166,7 +166,7 @@ select:focus {
     margin-right: 20%;
     top: 3%;
     align-items: center;
-    min-width: 85px;
+    min-width: 5.313;
     font-size: 14px;
     background: rgb(201, 200, 180, 1);
     border-radius: 4px;
@@ -203,11 +203,11 @@ select:focus {
     border-radius: 4px;
     padding: 10px;
     margin: auto;
-    max-width: 500px;
+    max-width: 31.25rem;
     display: grid;
     grid-template-columns: 35% 65%;
-    min-width: 348px;
-    margin-left: -34px;
+    min-width: 21.75rem;
+    margin-left: -2.125rem;
 }
 
 .row>* {
