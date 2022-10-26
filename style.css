@@ -75,9 +75,6 @@ select:focus {
     font-size: 14px;
     padding: 20px;
     position: relative;
-
-
-
 }
 
 .dropdown ul {
@@ -163,8 +160,7 @@ select:focus {
     max-width: 100%;
     max-height: 50%;
     height: 35%;
-    margin: auto;
-    min-width: 20.938rem;
+    margin: auto;    
 }
 
 .arrow {
@@ -214,7 +210,6 @@ select:focus {
     max-width: 31.25rem;
     display: grid;
     grid-template-columns: 35% 65%;
-    min-width: 21.75rem;
     margin-left: -2.125rem;
     box-sizing: border-box;
 }
