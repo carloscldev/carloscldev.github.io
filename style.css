@@ -170,7 +170,7 @@ select:focus {
     margin-right: 20%;
     top: 3%;
     align-items: center;
-    min-width: 5.313;
+    min-width: 5.313rem;
     font-size: 14px;
     background: rgb(201, 200, 180, 1);
     border-radius: 4px;
